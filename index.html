@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-ZX6e3+4rF7vUsV0QlbKoNm/b/tgn+7J7UviX2qKY8FYYpD9oMfojlNnK8Icn6QG4N6CDChN5c+2dYUcKzeGQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="light-mode">
+
+  <div class="toggle-mode" onclick="toggleMode()">
+    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 18a8 8 0 110-16 8 8 0 010 16z"/>
+    </svg>
+    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 4a1 1 0 011-1V1a1 1 0 10-2 0v2a1 1 0 011 1zm0 16a1 1 0 011-1v-2a1 1 0 10-2 0v2a1 1 0 011 1zM4.22 5.64l1.42 1.42a1 1 0 01-1.42 1.42L2.8 7.06a1 1 0 111.42-1.42zm12.02 12.02a1 1 0 011.42 0l1.42 1.42a1 1 0 01-1.42 1.42l-1.42-1.42a1 1 0 010-1.42zM12 8a4 4 0 110 8 4 4 0 010-8zm-8 4a1 1 0 011-1H3a1 1 0 100 2h2a1 1 0 01-1-1zm16 0a1 1 0 011-1h2a1 1 0 100 2h-2a1 1 0 01-1-1zm-1.36-5.64l1.42-1.42a1 1 0 00-1.42-1.42l-1.42 1.42a1 1 0 001.42 1.42zM7.06 16.95a1 1 0 011.42 0l1.42 1.42a1 1 0 01-1.42 1.42l-1.42-1.42a1 1 0 010-1.42z"/>
+    </svg>
+  </div>
+
+
+  <div class="calculator">
+    <div class="display">0</div>
+    <div class="buttons">
+      <button class="clear">AC</button>
+      <button class="backspace">⌫</button>
+      <button class="operator">%</button>
+      <button class="operator">/</button>
+      <button class="number">7</button>
+      <button class="number">8</button>
+      <button class="number">9</button>
+      <button class="operator">*</button>
+      <button class="number">4</button>
+      <button class="number">5</button>
+      <button class="number">6</button>
+      <button class="operator">-</button>
+      <button class="number">1</button>
+      <button class="number">2</button>
+      <button class="number">3</button>
+      <button class="operator">+</button>
+      <button class="number">0</button>
+      <button>.</button>
+      <button class="equal">=</button>
+      <button class="operator">sin</button>
+      <button class="operator">cos</button>
+      <button class="operator">tan</button>
+      <button class="operator">log</button>
+      <button class="operator">ln</button>
+      <button class="operator">√</button>
+      <button class="operator">^</button>
+      <button class="operator">(</button>
+      <button class="operator">)</button>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
